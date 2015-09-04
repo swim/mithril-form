@@ -3,6 +3,7 @@ Provides a Mithril based form constructor with managed submit and validation han
 
 This component takes a different tact from other (mithril based) form examples I have seen. Instead of binding to the onChange event we simply wait for the user to trigger the submit handler and then act. However one could easily pass additional attributes to each form element;
 
+```javascript
 var textForm = {
   attributes: {
   	class: 'form',
@@ -30,3 +31,4 @@ var textForm = {
 
   }
 }
+```
