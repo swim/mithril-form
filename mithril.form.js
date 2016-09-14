@@ -19,7 +19,7 @@ var form = {
       var submission = [];
 
       // Format form submission.
-      for (i = 0; i < form.elements.length; ++i) {
+      for (var i = 0; i < form.elements.length; ++i) {
         var value = form.elements[i].value;
         var name = form.elements[i].name;
 
